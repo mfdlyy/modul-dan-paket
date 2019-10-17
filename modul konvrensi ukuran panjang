@@ -1,0 +1,10 @@
+import math
+
+def KMkeM (a):
+    return a * 1000
+
+def CMkeM (b):
+    return b / 100
+
+def MkeMM (c):
+    return c * 1000
