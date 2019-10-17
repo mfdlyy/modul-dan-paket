@@ -1,0 +1,24 @@
+import konversiukuranpanjang
+
+def main():
+
+    print("Konversi dari KM ke M")
+    a = int(input("Masukkan nilai a: "))
+
+    hasil = konversiukuranpanjang.KMkeM (a)
+    print("hasil dari konversi KM ke M adalah: ", hasil, "m")
+
+    print("\nKonversi dari CM ke M")
+    b = float(input("Masukkan nilai b: "))
+
+    hasil = konversiukuranpanjang.CMkeM (a)
+    print("hasil dari konversi CM ke M adalah: ", hasil, "m")
+
+    print("\nKonversi dari M ke MM")
+    c = int(input("Masukkan nilai c: "))
+
+    hasil = konversiukuranpanjang.MkeMM (a)
+    print("hasil dari konversi M ke MM adalah: ", hasil, "mm")
+
+if __name__ == "__main__":
+    main()
